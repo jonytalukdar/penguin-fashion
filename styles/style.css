@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 10px;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 5px 5px 10px lightgray !important;
+}
+
+#casual-backpack img,
+#travel-backpack img {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
