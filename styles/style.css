@@ -28,7 +28,7 @@ header,
 /* perfect fit section */
 
 #perfect-fit {
-  background-image: url(../Photos/background/biography-bg.png);
+  background-image: url(../images/background/biography-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: cover;
@@ -48,24 +48,23 @@ header,
 /* casual backpack section */
 
 #casual-backpack {
-  background-image: url(../Photos/background/header-bg.png);
+  background-image: url(../images/background/header-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 /* travel-backpack section */
 
-#casual-backpack {
-  background-image: url(../Photos/background/footer-bg.png);
+#travel-backpack {
+  background-image: url(../images/background/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-repeat: cover;
 }
 
 /* latest offers section */
 
 #latest-offers {
-  background-image: url(../Photos/background/biography-bg.png);
+  background-image: url(../images/background/biography-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: cover;
@@ -99,7 +98,7 @@ del {
 /* footer */
 
 footer {
-  background-image: url(../Photos/background/biography-bg.png);
+  background-image: url(../images/background/biography-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: cover;
