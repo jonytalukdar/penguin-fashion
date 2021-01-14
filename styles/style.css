@@ -113,3 +113,11 @@ del {
   color: red;
   font-weight: 600;
 }
+
+/* media quaries */
+
+@media (max-width: 400px) {
+  .logo {
+    width: 200px;
+  }
+}
