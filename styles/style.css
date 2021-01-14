@@ -2,6 +2,49 @@
   box-sizing: border-box;
 }
 
+/* nav section */
+
+nav ul li {
+  padding: 0 8px;
+}
+
+nav ul li a {
+  color: #2a1e59;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* banner section */
+
+.banner-title {
+  color: #2a1e59;
+  font-weight: bold;
+}
+.another-title {
+  color: #76c27e;
+}
+
+/* perfect fit section */
+
+#perfect-fit h3 {
+  color: #2a1e59c7;
+  font-weight: 700;
+}
+
+#perfect-fit .col {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1) !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-buy {
+  background-color: #2a1e59 !important;
+  color: white !important;
+  padding: 15px 20px !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+}
+
 .card {
   padding: 10px;
   border: none !important;
