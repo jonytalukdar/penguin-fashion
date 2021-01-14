@@ -52,14 +52,16 @@ header,
 }
 
 #casual-backpack h2,
-#travel-backpack h2 {
+#travel-backpack h2,
+#latest-offers h2 {
   color: #2a1e59;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 #casual-backpack h5,
-#travel-backpack h5 {
+#travel-backpack h5,
+#latest-offers h5 {
   color: #2a1e59;
   font-size: 22px;
   font-weight: 700;
@@ -83,4 +85,31 @@ header,
   border: none !important;
   border-radius: 15px !important;
   box-shadow: 5px 5px 10px lightgray !important;
+}
+
+/* LATEST SECTION */
+
+#latest-offers .price {
+  font-size: 20px;
+  color: #2a1e59;
+  margin-top: 5px;
+}
+
+#latest-offers .btn-buy {
+  background-color: #2a1e59 !important;
+  font-size: 12px;
+  color: white !important;
+  /* padding: 8px 10px !important; */
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+}
+
+#latest-offers .fa {
+  font-size: 15px !important;
+  margin-right: 3px;
+  padding-top: 2px;
+}
+
+del {
+  color: red;
 }
