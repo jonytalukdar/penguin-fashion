@@ -40,9 +40,28 @@ nav ul li a {
 .btn-buy {
   background-color: #2a1e59 !important;
   color: white !important;
-  padding: 15px 20px !important;
+  padding: 10px 20px !important;
   font-weight: 600 !important;
   border-radius: 10px !important;
+}
+
+.price {
+  color: #76c27e;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#casual-backpack h2,
+#travel-backpack h2 {
+  color: #2a1e59;
+  font-weight: 600;
+}
+
+#casual-backpack h5,
+#travel-backpack h5 {
+  color: #2a1e59;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .card {
