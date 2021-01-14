@@ -1,4 +1,4 @@
-/* nav section */
+/* navbar section */
 
 nav ul li {
   padding: 0 8px;
@@ -11,6 +11,7 @@ nav ul li a {
 }
 
 /* banner section */
+
 #banner,
 header,
 .navbar {
@@ -26,6 +27,13 @@ header,
 
 /* perfect fit section */
 
+#perfect-fit {
+  background-image: url(../Photos/background/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: cover;
+}
+
 #perfect-fit h3 {
   color: #2a1e59c7;
   font-weight: 700;
@@ -36,6 +44,68 @@ header,
   padding: 10px;
   border-radius: 10px;
 }
+
+/* casual backpack section */
+
+#casual-backpack {
+  background-image: url(../Photos/background/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* travel-backpack section */
+
+#casual-backpack {
+  background-image: url(../Photos/background/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: cover;
+}
+
+/* latest offers section */
+
+#latest-offers {
+  background-image: url(../Photos/background/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: cover;
+}
+
+#latest-offers .price {
+  font-size: 20px;
+  color: #2a1e59;
+  margin-top: 5px;
+}
+
+#latest-offers .btn-buy {
+  background-color: #2a1e59 !important;
+  font-size: 12px;
+  color: white !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+}
+
+#latest-offers .fa {
+  font-size: 15px !important;
+  margin-right: 3px;
+  padding-top: 2px;
+}
+
+del {
+  color: red;
+  font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  background-image: url(../Photos/background/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: cover;
+}
+
+/* utilities */
 
 .btn-buy {
   background-color: #2a1e59 !important;
@@ -85,33 +155,6 @@ header,
   border: none !important;
   border-radius: 15px !important;
   box-shadow: 5px 5px 10px lightgray !important;
-}
-
-/* LATEST OFFERS SECTION */
-
-#latest-offers .price {
-  font-size: 20px;
-  color: #2a1e59;
-  margin-top: 5px;
-}
-
-#latest-offers .btn-buy {
-  background-color: #2a1e59 !important;
-  font-size: 12px;
-  color: white !important;
-  font-weight: 600 !important;
-  border-radius: 10px !important;
-}
-
-#latest-offers .fa {
-  font-size: 15px !important;
-  margin-right: 3px;
-  padding-top: 2px;
-}
-
-del {
-  color: red;
-  font-weight: 600;
 }
 
 /* media quaries */
