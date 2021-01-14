@@ -15,7 +15,11 @@ nav ul li a {
 }
 
 /* banner section */
-
+#banner,
+header,
+.navbar {
+  background-color: #fffff4 !important;
+}
 .banner-title {
   color: #2a1e59;
   font-weight: bold;
@@ -40,7 +44,7 @@ nav ul li a {
 .btn-buy {
   background-color: #2a1e59 !important;
   color: white !important;
-  padding: 10px 20px !important;
+  padding: 10px 12px !important;
   font-weight: 600 !important;
   border-radius: 10px !important;
 }
@@ -54,14 +58,27 @@ nav ul li a {
 #casual-backpack h2,
 #travel-backpack h2 {
   color: #2a1e59;
-  font-weight: 600;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#casual-backpack img,
+#travel-backpack img {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+}
+.fa {
+  font-size: 18px !important;
+  margin-right: 6px;
+  padding-top: 5px;
 }
 
 #casual-backpack h5,
 #travel-backpack h5 {
   color: #2a1e59;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .card {
@@ -69,11 +86,4 @@ nav ul li a {
   border: none !important;
   border-radius: 10px !important;
   box-shadow: 5px 5px 10px lightgray !important;
-}
-
-#casual-backpack img,
-#travel-backpack img {
-  background-color: #ddd;
-  border-radius: 10px;
-  padding: 20px;
 }
